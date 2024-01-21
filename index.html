@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Duplicate Remover</title>
+</head>
+<body>
+    <h1>Upload Excel Files</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="original_excel">Original Excel:</label>
+        <input type="file" name="original_excel" required><br>
+        <label for="duplicate_excel">Duplicate Excel:</label>
+        <input type="file" name="duplicate_excel" required><br>
+        <button type="submit">Remove Duplicates</button>
+    </form>
+</body>
+</html>
